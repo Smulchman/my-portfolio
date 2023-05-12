@@ -1,0 +1,1 @@
+// similar to the about page, just a form that sends an email to me

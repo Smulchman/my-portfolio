@@ -1,5 +1,6 @@
 import React from "react";
-
+// potentially remove the contact tab, and move it to footer or move it to about page or both
+// still think I can make it it's own indipendent js file
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
