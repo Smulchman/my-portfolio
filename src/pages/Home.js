@@ -6,6 +6,7 @@
 
 import React from "react";
 import "../styles/home.css";
+import sites from "../utils/sites.json";
 
 function Home() {
   return (
