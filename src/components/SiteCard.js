@@ -1,5 +1,4 @@
 import React from "react";
-import sites from "../utils/sites.js";
 
 function SiteCard(site) {
   return (

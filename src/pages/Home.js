@@ -4,9 +4,10 @@
 // maybe a carousel?
 // maybe some sort of morphing animation?
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/home.css";
-import sites from "../utils/sites.json";
+import sites from "../utils/sites.js";
+import SiteCard from "../components/SiteCard";
 
 function Home() {
   return (
@@ -14,6 +15,13 @@ function Home() {
       <div>
         <h1>welcome,</h1>
       </div>
+      {sites.map((site) => (
+      <SiteCard 
+      title={site.title}
+      text={site.text}
+      image={site.image}
+      />
+      ))}
     </div>
   );
 }
