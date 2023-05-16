@@ -5,13 +5,13 @@
 // maybe some sort of morphing animation?
 
 import React from "react";
-import "../../styles/home.css";
+import "../styles/home.css";
 
 function Home() {
   return (
     <div className="home">
       <div>
-      <h1>welcome,</h1>
+        <h1>welcome,</h1>
       </div>
     </div>
   );
