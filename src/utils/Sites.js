@@ -1,7 +1,7 @@
 // this file is to provide an array of objexts containing information about the sites that I'm highlighting with the portfolio
 
-import gameboxd from "../assets/images/gameboxd.png";
-import historwe from "../assets/images/historwe.png";
+import gameboxd from "../assets/gameboxd.png";
+import historwe from "../assets/historwe.png";
 
 const sites = [
     {
