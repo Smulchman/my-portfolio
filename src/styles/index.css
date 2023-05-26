@@ -5,3 +5,11 @@
 .nav-link:hover {
     color: #949494;
   }
+
+.nav-link.active {
+    color: #949494;
+  }
+
+.card {
+    border-radius: 0;
+  }
