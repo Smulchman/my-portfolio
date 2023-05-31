@@ -5,7 +5,7 @@
 // maybe some sort of morphing animation?
 
 import React, { useState, useEffect } from "react";
-import "../styles/home.css";
+import "../styles/projects.css";
 import sites from "../utils/sites.js";
 import SiteCard from "../components/SiteCard";
 
