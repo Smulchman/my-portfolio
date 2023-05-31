@@ -6,15 +6,15 @@ import historwe from "../assets/historwe.png";
 const sites = [
     {
         title: "Gameboxd",
-        text: "A team project made during coding bootcamp. A social media and review website for video games.",
+        text: "A social media and review website for video games.",
         image: gameboxd,
         link: "https://gameboxd.herokuapp.com/"
     },
     {
         title: "Historwe",
-        text: "A team project made during coding bootcamp. A simple social media focused on historical events.",
+        text: "A simple social media focused on historical events.",
         image: historwe,
-        link: "https://gameboxd.herokuapp.com/"
+        link: "https://calm-castle-61617.herokuapp.com/"
     }
 ];
 
