@@ -3,13 +3,9 @@ import "../styles/sitecard.css";
 
 function SiteCard(site) {
   return (
-    <div class="card text-bg-dark">
-      <style>
-        @import
-        url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-      </style>
+    <div class="card text-white bg-dark sitecard">
       <a href={site.link}>
-        <div class="card-img-overlay">
+        <div class="card-body">
           <h5 class="card-title">{site.title}</h5>
           <p class="card-text">{site.text}</p>
         </div>

@@ -6,15 +6,13 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <text>
       <h1>my name is sam,</h1>
-      <p>
-        i'm a full stack developer living in new york. i love photography, film,
-        theatre, and music. all photography used on this site was taken by me.
-        if you'd like to contact me, please fill out the form linked in the
-        navbar above.
+      <p className="bio mx-3">
+        i'm a full stack developer living in new york. <br/> i love photography, film,
+        theatre, and music. <br/> to contact me, please fill out the form linked in the navbar above.
       </p>
-    </div>
+    </text>
   );
 }
 

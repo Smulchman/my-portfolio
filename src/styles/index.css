@@ -13,3 +13,10 @@
 .card {
     border-radius: 0;
   }
+
+.bio {
+  font-family: 'Noto Serif', serif;
+  font-weight: medium;
+  font-size: 4vw;
+  margin-top: 20px
+}

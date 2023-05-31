@@ -8,3 +8,9 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
+
+@media only screen and (min-width: 768px) {
+    .sitecard {
+        margin-top: 30px
+    }
+}

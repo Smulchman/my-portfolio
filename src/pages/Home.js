@@ -12,12 +12,9 @@ import SiteCard from "../components/SiteCard";
 function Home() {
   return (
     <div className="home">
-      <style>
-        @import
-        url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-      </style>
-      <div>
+      <div className="mx-3">
         <h1>welcome,</h1>
+        <p class="intro">click on a site to learn more.</p>
       </div>
       {sites.map((site) => (
         <SiteCard title={site.title} text={site.text} image={site.image} />
