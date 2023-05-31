@@ -31,3 +31,9 @@ a:hover {
   text-decoration: none;
   cursor:pointer;
 }
+
+@media only screen and (min-width: 1080px) {
+  .card {
+    border-radius: .5;
+  }
+}
