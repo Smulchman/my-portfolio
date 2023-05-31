@@ -8,7 +8,8 @@ const sites = [
         title: "Gameboxd",
         text: "A social media and review website for video games.",
         image: gameboxd,
-        link: "https://gameboxd.herokuapp.com/"
+        // I know it's really annoying that the link is 'gameboxed' and the actual site is 'gameboxd' but gameboxd was already taken on heroku and I thought this was funny.
+        link: "https://gameboxed.herokuapp.com/"
     },
     {
         title: "Historwe",
