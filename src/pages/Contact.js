@@ -62,5 +62,3 @@ function Contact() {
 }
 
 export default Contact;
-
-// service ID -  service_qqzocaq
