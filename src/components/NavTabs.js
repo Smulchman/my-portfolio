@@ -5,7 +5,7 @@ import "../styles/index.css";
 // still think I can make it it's own indipendent js file
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar fixed-top bg-white">
+    <nav className="navbar fixed-top bg-white">
       <div>
         <ul className="nav">
           <li className="nav-item">

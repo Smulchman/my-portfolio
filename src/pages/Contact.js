@@ -8,21 +8,23 @@ function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault(); // prevents the page from reloading when you hit “Send”
+    e.preventDefault();
 
     emailjs
       .sendForm(
         "service_qqzocaq",
-        "template_6c21s69",
+        "template_hcvnvvs",
         form.current,
         "5FCsAhRYCj_20nT0J"
       )
       .then(
         (result) => {
+          console.log("success");
           console.log(result);
         },
         (error) => {
-          console.error(error);
+          console.log("error");
+          console.error(error.text);
         }
       );
   };
@@ -30,7 +32,7 @@ function Contact() {
   return (
     <form className="form" ref={form} onSubmit={sendEmail}>
       <div className="mt-5 mb-3">
-        <label for="emailInput" className="form-label">
+        <label htmlFor="emailInput" className="form-label">
           email address
         </label>
         <input
@@ -42,7 +44,7 @@ function Contact() {
         ></input>
       </div>
       <div className="mb-3">
-        <label for="messageInput" className="form-label">
+        <label htmlFor="messageInput" className="form-label">
           message
         </label>
         <textarea
