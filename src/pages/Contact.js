@@ -27,6 +27,7 @@ function Contact() {
           console.error(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
