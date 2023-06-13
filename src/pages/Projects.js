@@ -1,7 +1,4 @@
-// landing page, simple design and layout.
-// hero image from my own photography
-// integrate project examples
-// maybe a carousel?
+// integrated project examples
 // maybe some sort of morphing animation?
 
 import React, { useState, useEffect } from "react";

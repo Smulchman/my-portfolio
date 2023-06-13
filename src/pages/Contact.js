@@ -1,4 +1,4 @@
-// similar to the about page, just a form that sends an email to me
+// Form that sends an email to me
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -27,6 +27,7 @@ function Contact() {
           console.error(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (

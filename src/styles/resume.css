@@ -1,0 +1,12 @@
+.pdf {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 1060px) {
+    .pdf {
+        height: 1370px;
+        width: auto;
+    }
+}
