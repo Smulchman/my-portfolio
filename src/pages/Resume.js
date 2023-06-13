@@ -7,15 +7,14 @@ import { Viewer } from "@react-pdf-viewer/core";
 // Web worker
 import { Worker } from "@react-pdf-viewer/core";
 
-// Plugins
+// Plugin and plugin instance
 // import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+// const PluginInstance = defaultLayoutPlugin();
 
 // Import styles
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
-
-// Create new plugin instance
-// const PluginInstance = defaultLayoutPlugin();
+import "../styles/resume.css";
 
 function Hello() {
   return (
