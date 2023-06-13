@@ -13,14 +13,16 @@ import { Worker } from "@react-pdf-viewer/core";
 
 // Import styles
 import "@react-pdf-viewer/core/lib/styles/index.css";
-import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+// import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import "../styles/resume.css";
+
+import pdf from "../assets/mulcahy_resume.pdf";
 
 function Hello() {
   return (
     <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
       <div className="pdf">
-        <Viewer fileUrl="../assets/mulcahy_resume.pdf" />
+        <Viewer fileUrl={ pdf } />
       </div>
     </Worker>
   );
