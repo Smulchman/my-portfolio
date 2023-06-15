@@ -17,8 +17,15 @@
 .bio {
   font-family: 'Noto Serif', serif;
   font-weight: medium;
-  font-size: 4vw;
+  font-size: 3.5vw;
   margin-top: 20px
+}
+
+h1 {
+  font-size: 18vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin-top: 40px
 }
 
 a {
@@ -32,8 +39,32 @@ a:hover {
   cursor:pointer;
 }
 
+@media only screen and (max-width: 461px) {
+  .nav-link {
+    font-size: 3.6vw !important;
+    padding: 1.0vw 3.0vw !important;
+  }
+}
+
+/* @media only screen and (max-width: 461px) {
+  .nav {
+    
+  }
+} */
+
+
 @media only screen and (min-width: 1080px) {
   .card {
     border-radius: .5;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  h1 {
+    font-size: 14vw;
+  }
+
+  .bio {
+    font-size: 3vw;
   }
 }
