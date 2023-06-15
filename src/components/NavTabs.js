@@ -1,8 +1,9 @@
+// imports
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/index.css";
-// potentially remove the contact tab, and move it to footer or move it to about page or both
-// still think I can make it it's own indipendent js file
+
+// navigation component
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar fixed-top bg-white">
@@ -10,9 +11,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         <ul className="nav">
           <li className="nav-item">
             <a
-              href="#home"
+              href=""
               onClick={() => handlePageChange("Home")}
-              // ternary statement to set current tab
+              // ternary statement to set current tab's style
               className={
                 currentPage === "Home" ? "nav-link active" : "nav-link"
               }
