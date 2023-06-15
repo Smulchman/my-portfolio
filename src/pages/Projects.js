@@ -14,7 +14,7 @@ function Projects() {
         <p class="intro">click on a site to learn more.</p>
       </div>
       {sites.map((site) => (
-        <SiteCard key={site.title} title={site.title} text={site.text} image={site.image} link={site.link}/>
+        <SiteCard key={site.title} title={site.title} text={site.text} text2={site.text2} image={site.image} link={site.link}/>
       ))}
     </div>
   );
