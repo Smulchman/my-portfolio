@@ -12,11 +12,11 @@
 /build
 
 # photos
-/photography/
+/src/assets/photography
 DSC*
-echo "/photography/" >> .gitignore
+echo "/src/assets/photography" >> .gitignore
 echo "DSC*" >> .gitignore
-git rm --cached /photography/
+git rm --cached /src/assets/photography
 git rm --cached DSC*
 
 # misc
