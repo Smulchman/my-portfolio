@@ -31,36 +31,50 @@ function Contact() {
   };
 
   return (
-    <form className="form" ref={form} onSubmit={sendEmail}>
-      <div className="mt-5 mb-3">
-        <label htmlFor="emailInput" className="form-label">
-          email address
-        </label>
-        <input
-          type="email"
-          className="form-control"
-          id="emailInput"
-          placeholder="name@example.com"
-          name="email_name"
-        ></input>
-      </div>
-      <div className="mb-3">
-        <label htmlFor="messageInput" className="form-label">
-          message
-        </label>
-        <textarea
-          className="form-control"
-          id="messageInput"
-          rows="5"
-          name="message"
-        ></textarea>
-      </div>
-      <div className="col-12">
-        <button className="btn btn-primary" type="submit" value="send">
-          send
-        </button>
-      </div>
-    </form>
+    <div className="contact">
+      <h6 className="text-left">
+        Email - Mulcahy.Samuel@gmail.com <br />
+        GitHub - <a href="https://github.com/Smulchman">
+          github.com/Smulchman
+        </a>
+        <br />
+        LinkedIn -
+        <a href="https://www.linkedin.com/in/samuel-mulcahy/">
+          linkedin.com/in/samuel-mulcahy/
+        </a>
+        <br />
+      </h6>
+      <form className="form" ref={form} onSubmit={sendEmail}>
+        <div className="mt-4 mb-3">
+          <label htmlFor="emailInput" className="form-label">
+            email address
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="emailInput"
+            placeholder="name@example.com"
+            name="email_name"
+          ></input>
+        </div>
+        <div className="mb-3">
+          <label htmlFor="messageInput" className="form-label">
+            message
+          </label>
+          <textarea
+            className="form-control"
+            id="messageInput"
+            rows="5"
+            name="message"
+          ></textarea>
+        </div>
+        <div className="col-12">
+          <button className="btn btn-primary" type="submit" value="send">
+            send
+          </button>
+        </div>
+      </form>
+    </div>
   );
 }
 
