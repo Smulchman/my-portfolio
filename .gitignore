@@ -12,12 +12,8 @@
 /build
 
 # photos
-/src/assets/photography
-DSC*
-echo "/src/assets/photography" >> .gitignore
-echo "DSC*" >> .gitignore
-# git rm --cached /src/assets/photography
-# git rm --cached DSC*
+# /src/assets/photography
+# DSC*
 
 # misc
 .DS_Store
