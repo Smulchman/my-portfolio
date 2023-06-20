@@ -17,7 +17,7 @@ Go to the following link to view the deployed portfolio.
 
 ## Questions
 
-GitHub: [Smulchman](https://smulchman.github.io/my-portfolio/)\
+GitHub: [Smulchman](https://github.com/Smulchman)\
 You can reach me at the following email with any questions regarding this repository:\
 Email: Mulcahy.Samuel@gmail.com
 
