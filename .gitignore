@@ -12,7 +12,8 @@
 /build
 
 # photos
-/src/assets/photography
+photography/
+DSC*
 
 # misc
 .DS_Store
