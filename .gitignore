@@ -16,8 +16,8 @@
 DSC*
 echo "/src/assets/photography" >> .gitignore
 echo "DSC*" >> .gitignore
-git rm --cached /src/assets/photography
-git rm --cached DSC*
+# git rm --cached /src/assets/photography
+# git rm --cached DSC*
 
 # misc
 .DS_Store
