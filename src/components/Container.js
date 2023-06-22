@@ -18,8 +18,8 @@ export default function PortfolioContainer() {
           <motion.div
             key="contact"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { delay: 0.6, duration: 0.6 } }}
+            exit={{ opacity: 0, transition: { duration: 0.6 } }}
           >
             <Contact />;
           </motion.div>
@@ -32,8 +32,8 @@ export default function PortfolioContainer() {
           <motion.div
             key="projects"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { delay: 0.6, duration: 0.6 } }}
+            exit={{ opacity: 0, transition: { duration: 0.6 } }}
           >
             <Projects />
           </motion.div>
@@ -46,8 +46,8 @@ export default function PortfolioContainer() {
           <motion.div
             key="photography"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { delay: 0.6, duration: 0.6 } }}
+            exit={{ opacity: 0, transition: { duration: 0.6 } }}
           >
             <Photography />
           </motion.div>
@@ -60,8 +60,8 @@ export default function PortfolioContainer() {
           <motion.div
             key="resume"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { delay: 0.6, duration: 0.6 } }}
+            exit={{ opacity: 0, transition: { duration: 0.6 } }}
           >
             <Resume />
           </motion.div>
@@ -73,8 +73,8 @@ export default function PortfolioContainer() {
         <motion.div
           key="home"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          animate={{ opacity: 1, transition: { delay: 0.8, duration: 0.6 } }}
+          exit={{ opacity: 0, transition: { duration: 0.6 } }}
         >
           <Home />
         </motion.div>
